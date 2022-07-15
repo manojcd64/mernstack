@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(181, 194, 161);
 }
 
 .App-link {
@@ -32,7 +32,32 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* custom styles  */
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto auto;
+  left: 30%;
+  background-color: black;
+}
+
+input {
+  height: 50px;
+  margin: 20px;
+}
+
+button {
+  height: 50px;
+  margin: 20px;
+}
+
+body {
+  background-color: rgb(71, 89, 94);
 }
